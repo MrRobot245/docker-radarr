@@ -5,4 +5,4 @@ RUN tar -xf ffmpeg-release-*
 RUN cp ffmpeg-*/ffprobe /usr/local/bin/
 RUN cp ffmpeg-*/ffmpeg /usr/local/bin/
 RUN apt-get remove wget -y
-
+RUN rm -rf ffmpeg*
