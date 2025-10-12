@@ -47,7 +47,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/your-user/your-image:latest
+          tags: ghcr.io/mrrobot245/radarr:latest
 
       - name: Save new digest
         if: steps.changed.outputs.changed == 'true'
